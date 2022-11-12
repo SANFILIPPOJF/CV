@@ -1,5 +1,15 @@
+@font-face {
+    font-family: "Voltaire";
+    src: url(Polices/Voltaire-Regular.ttf);
+}
+@font-face {
+    font-family: "Pattaya";
+    src: url(Polices/Pattaya-Regular.ttf);
+}
 /* Entete */
 .entete{
+    font-family: "Voltaire",'Courier New', Courier, monospace;
+    font-size: 1.25em;
     border: 4px black solid;
     border-radius: 10px;
     box-shadow: 5px 5px 5px gray;
@@ -20,7 +30,7 @@ body{
 /* photo */
 #photo{
     box-shadow: 5px 5px 5px gray;
-    border: 2px black solid;
+    border: 2px blue solid;
     border-radius: 10px;
 }
 /* bande laterale gauche */
@@ -51,6 +61,7 @@ nav{
 }
 /* la citation */
 #citation{
+    font-family: "Pattaya", 'Courier New', Courier, monospace;
     box-shadow: 5px 5px 5px gray;
     color: white;
     background-image: url(images/FondCitation.jpg);
@@ -61,10 +72,15 @@ nav{
 }
 /* anecdote */
 #anecdote{
+    background: white;
     box-shadow: 5px 5px 5px gray;
-    margin-top: 2%;
+    margin-top: 5%;
     width: 165px;
-    border: 4px black solid;
-    border-radius: 100px;
-    padding: 1%;
+    border: 4px red solid;
+    border-radius: 10px;
+    padding: 2%;
+}
+/* taille police email */
+#email{
+    font-size: 0.85em;
 }
