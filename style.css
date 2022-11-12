@@ -1,3 +1,17 @@
+/* Entete */
+.entete{
+    border: 4px black solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+    margin: 2%;
+}
+/* Poste */
+
+/* Corps de la page */
 body{
     background-image: url(fond-froise.jpg);
+}
+#photo{
+    border-radius: 10px;
 }
