@@ -6,6 +6,10 @@
     font-family: "Pattaya";
     src: url(Polices/Pattaya-Regular.ttf);
 }
+@font-face {
+    font-family: "Roboto";
+    src: url(Polices/Roboto-Regular.ttf);
+}
 /* Entete */
 .entete{
     font-family: "Voltaire",'Courier New', Courier, monospace;
@@ -43,6 +47,7 @@ nav{
 }
 /* 4 blocs detaillés */
 #articles{
+    font-size: 0.9em;
     list-style-type: none;
     margin-left: 190px;
     display: flex;
@@ -52,12 +57,13 @@ nav{
     flex: 1;
     box-shadow: 5px 5px 5px gray;
     background-color: white;
-    margin: 2%;
+    margin: 1%;
     border: 4px black solid;
     border-radius: 10px;
     border: 4px black solid;
     min-width: 290px;
     min-height: 100px;
+    padding: 1%;
 }
 /* la citation */
 #citation{
@@ -72,6 +78,8 @@ nav{
 }
 /* anecdote */
 #anecdote{
+    font-family: "Roboto", 'Courier New', Courier, monospace;
+    text-align: justify;
     background: white;
     box-shadow: 5px 5px 5px gray;
     margin-top: 5%;
