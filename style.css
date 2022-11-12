@@ -5,6 +5,8 @@
     box-shadow: 5px 5px 5px gray;
     text-align: center;
     margin: 2%;
+    margin-left: 200px;
+    background-color: white;
 }
 /* Poste */
 
@@ -12,6 +14,49 @@
 body{
     background-image: url(fond-froise.jpg);
 }
+/* photo */
 #photo{
+    border: 2px black solid;
     border-radius: 10px;
+}
+/* bande laterale gauche */
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2%;
+    width: 190px;
+}
+/* 4 blocs detaillés */
+#articles{
+    margin-left: 190px;
+
+}
+article{
+    display: flexbox;
+    flex-direction: column;
+    background-color: white;
+    margin: 2%;
+    border: 4px black solid;
+    border-radius: 10px;
+    border: 4px black solid;
+    min-width: 300px;
+    max-width: 325px;
+    min-height: 100px;
+}
+#citation{
+
+    color: white;
+    background-image: url(FondCitation.jpg);
+    width: 165px;
+    border: 4px red solid;
+    border-radius: 10px;
+    padding: 2%;
+}
+#anecdote{
+    margin-top: 2%;
+    width: 165px;
+    border: 4px black solid;
+    border-radius: 100px;
+    padding: 1%;
 }
