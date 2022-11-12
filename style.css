@@ -12,10 +12,14 @@
 
 /* Corps de la page */
 body{
-    background-image: url(fond-froise.jpg);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/fond-froise.jpg);
 }
 /* photo */
 #photo{
+    box-shadow: 5px 5px 5px gray;
     border: 2px black solid;
     border-radius: 10px;
 }
@@ -29,31 +33,35 @@ nav{
 }
 /* 4 blocs detaillés */
 #articles{
+    list-style-type: none;
     margin-left: 190px;
-
+    display: flex;
+    flex-wrap: wrap;
 }
-article{
-    display: flexbox;
-    flex-direction: column;
+#articles li{
+    flex: 1;
+    box-shadow: 5px 5px 5px gray;
     background-color: white;
     margin: 2%;
     border: 4px black solid;
     border-radius: 10px;
     border: 4px black solid;
-    min-width: 300px;
-    max-width: 325px;
+    min-width: 290px;
     min-height: 100px;
 }
+/* la citation */
 #citation{
-
+    box-shadow: 5px 5px 5px gray;
     color: white;
-    background-image: url(FondCitation.jpg);
+    background-image: url(images/FondCitation.jpg);
     width: 165px;
     border: 4px red solid;
     border-radius: 10px;
     padding: 2%;
 }
+/* anecdote */
 #anecdote{
+    box-shadow: 5px 5px 5px gray;
     margin-top: 2%;
     width: 165px;
     border: 4px black solid;
