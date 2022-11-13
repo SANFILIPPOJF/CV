@@ -1,14 +1,14 @@
 @font-face {
     font-family: "Voltaire";
-    src: url(Polices/Voltaire-Regular.ttf);
+    src: url(Polices\Voltaire-Regular.ttf);
 }
 @font-face {
     font-family: "Pattaya";
-    src: url(Polices/Pattaya-Regular.ttf);
+    src: url(Polices\Pattaya-Regular.ttf);
 }
 @font-face {
     font-family: "Roboto";
-    src: url(Polices/Roboto-Regular.ttf);
+    src: url(Polices\Roboto-Regular.ttf);
 }
 /* Entete */
 .entete{
@@ -30,7 +30,7 @@ body{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(Images/fond-froise.jpg);
+    background-image: url(Images\fond-froise.jpg);
 }
 /* photo */
 #photo{
@@ -75,7 +75,7 @@ nav{
     font-family: "Pattaya", 'Courier New', Courier, monospace;
     box-shadow: 5px 5px 5px gray;
     color: white;
-    background-image: url(Images/FondCitation.jpg);
+    background-image: url(Images\FondCitation.jpg);
     width: 165px;
     border: 4px red solid;
     border-radius: 10px;
