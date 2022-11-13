@@ -30,7 +30,7 @@ body{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(images/fond-froise.jpg);
+    background-image: url(Images/fond-froise.jpg);
 }
 /* photo */
 #photo{
@@ -75,7 +75,7 @@ nav{
     font-family: "Pattaya", 'Courier New', Courier, monospace;
     box-shadow: 5px 5px 5px gray;
     color: white;
-    background-image: url(images/FondCitation.jpg);
+    background-image: url(Images/FondCitation.jpg);
     width: 165px;
     border: 4px red solid;
     border-radius: 10px;
